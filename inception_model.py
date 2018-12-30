@@ -29,7 +29,7 @@ import sys
 
 import tensorflow as tf
 
-from inception.slim import slim
+from slim import slim
 
 FLAGS = tf.app.flags.FLAGS
 
