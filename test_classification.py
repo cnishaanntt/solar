@@ -15,7 +15,7 @@ import skimage.transform
 import pickle
 from collections import deque
 
-import inception_model as inception
+import slim.inception_model as inception
 from inception.slim import slim
 
 FLAGS = tf.app.flags.FLAGS
